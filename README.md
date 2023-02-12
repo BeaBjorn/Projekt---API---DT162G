@@ -11,7 +11,7 @@ Det här repositoryt innehåller ett API skapat för projektuppgiften i kursen J
 Det här är ett öppet API och är därmed tillgängligt för alla som vill konsummera det. 
 
 #### Kommandon
-Ladda ner repot : git clone
+Ladda ner repot : git clone https://github.com/BeaBjorn/Projekt---API---DT162G.git
 
 Installera node-modules : npm install
 
