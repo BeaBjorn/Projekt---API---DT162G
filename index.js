@@ -29,6 +29,9 @@ mongoose.connect('mongodb://127.0.0.1:27017/weekplanner_db')
     console.log(err);
 })
 
+//Shows message in console when server is running on port 3000
+app.listen(3000, () => console.log('Server up and running!'));
+
 //Pasing incoming json-requests
 app.use(express.json());
 
@@ -39,5 +42,4 @@ app.use('/lists', listRouter);
 const weekRouter = require('./routes/weeks');
 app.use('/weeks', weekRouter);
 
-//Shows message in console when server is running on port 3000
-app.listen(3000, () => console.log('Server up and running!'));
+
